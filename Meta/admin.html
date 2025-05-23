@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrar Almacén</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Administrar Almacén</h1>
+    <form id="login-form">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario">
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña">
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+
+    <div id="admin-container" style="display: none;">
+        <h2>Productos</h2>
+        <button id="agregar-producto">Agregar Producto</button>
+        <button id="vaciar-inventario">Vaciar Inventario</button>
+        <div id="productos-admin"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
